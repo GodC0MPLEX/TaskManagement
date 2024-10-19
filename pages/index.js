@@ -22,8 +22,11 @@ export default function Home({ initialTasks }) {
   // Initial tasks fetched server-side
 export const getServerSideProps = async () => {
   const tasks = [
-    { id: 1, title: 'Make a task management app', description: 'The app should have the unctionality to display the task list in good manner and also have crud functionality in it', priority: 'high', completed: false,status:"In-Progress" },
-    { id: 2, title: 'Task 2', description: 'Description 2', priority: 'medium', completed: false,status:"To-Do" },
+    { id: 2, title: 'Manage the task Management', description: 'The app should be good at displaying the rows and column and well maintained', priority: 'high', completed: false,status:"In-Progress" },
+    { id: 4, title: 'Manage the task Management', description: 'The app should be good at displaying the rows and column and well maintained', priority: 'medium', completed: false,status:"In-Progress" },
+    { id: 3, title: 'Upload it ', description: 'And also keep the Readme file updated', priority: 'low', completed: false,status:"To-Do" },
+    { id: 1, title: 'Make a task management app', description: 'The app should have the functionality to display the task list in good manner and also have crud functionality in it along with search functionality with title and name and sorting priority', priority: 'high', completed: false,status:"Completed" },
+
   ];
 
   return {
