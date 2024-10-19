@@ -1,7 +1,7 @@
 ~This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
-#1 Make Sure you have already downloaded the node This application has been developed on Node 20.xx
+## #1 Make Sure you have already downloaded the node This application has been developed on Node 20.xx
 #2 Click on the code button on this repo and copy the http link
 #3 Open a folder the do cmd in the path section after that a terminal will open.
 #4 use this command
