@@ -1,0 +1,22 @@
+.activeButton,.button{
+    width: 110px;
+    height: 35px;
+    background-color:#0E528F;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    border: 1px solid #0E528F;
+    background-color:#ffffff;
+    color: #0E528F;
+}
+.activeButton:active,.button:active{
+    transform: scale(0.95);
+}
